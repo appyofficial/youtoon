@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import products from '../../data/products';
 
-const ProductPage = (props: { match: { params: { id: string | number } } }) => {
+const ProductPage = (props: { match: { params: { id: string | number } } }): JSX.Element => {
   // Finding product in the database.
   // We match the params with product id.
   const product = products.find(product => product.id == props.match.params.id);
