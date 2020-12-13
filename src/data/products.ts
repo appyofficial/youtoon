@@ -11,7 +11,7 @@ interface productProps {
 
 const products: Array<productProps> = [
   {
-    id: '23003',
+    id: 23003,
     name: 'Rick and morty',
     img:
       'https://basementrejects.com/wp-content/uploads/2016/04/rick-and-morty-season-1-1-pilot-travel-to-dimension-35-c-eyes-review-episode-guide-list.jpg',
@@ -21,7 +21,7 @@ const products: Array<productProps> = [
     discription: 'Rick and morty world is waiting for you',
   },
   {
-    id: '23004',
+    id: 23004,
     name: 'Cirature portrait',
     img: 'https://www.bralin.com/wp-content/uploads/2018/08/Rabia-Caricature-square.jpg',
     price: 700,
@@ -30,7 +30,7 @@ const products: Array<productProps> = [
     discription: 'Make toon out of yourself and become famous in social media',
   },
   {
-    id: '23005',
+    id: 23005,
     name: 'Flat colorful portrait',
     img:
       'https://media.istockphoto.com/vectors/seamless-background-with-people-flat-design-cartoon-characters-men-vector-id1219890091?k=6&m=1219890091&s=170667a&w=0&h=m7f5ASLC4GLAEAzikt29_dsKOBEmYWnAociN1HMuyG4=',
